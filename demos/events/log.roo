@@ -13,3 +13,15 @@ web mvc scaffold --class ~.web.ClassSessionsController --backingType ~.models.Cl
 field date --fieldName runDate --type java.util.Date
 quit
 // Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 1a1c886] log closed at 2011-10-22 12:26:58
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log opened at 2011-10-22 13:00:22
+quit
+// Spring Roo 1.2.0.M1 [rev 1fa252f] log closed at 2011-10-22 13:01:55
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log opened at 2011-10-22 13:19:57
+quit
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log closed at 2011-10-22 15:25:58
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log opened at 2011-10-22 15:42:27
+quit
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log closed at 2011-10-22 15:42:45
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log opened at 2011-10-22 16:01:42
+quit
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev daf49bc] log closed at 2011-10-22 16:02:01
