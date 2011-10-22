@@ -1,0 +1,15 @@
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 1a1c886] log opened at 2011-10-22 11:57:24
+project --topLevelPackage org.barcamp.events --projectName events
+jpa setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT 
+! mate pom.xml
+// [failed] entity jpa --class ~.models.Session --testAutomatically 
+entity jpa --class ~.models.ClassSession --testAutomatically 
+! mate .
+field string --fieldName name --sizeMax 25 --unique --notNull
+repository jpa --interface ~.db.ClassSessionRepository --entity ~.models.ClassSession
+service --interface ~.services.ClassSessionService --entity ~.models.ClassSession
+web mvc setup
+web mvc scaffold --class ~.web.ClassSessionsController --backingType ~.models.ClassSession 
+field date --fieldName runDate --type java.util.Date
+quit
+// Spring Roo 1.2.0.BUILD-SNAPSHOT [rev 1a1c886] log closed at 2011-10-22 12:26:58
